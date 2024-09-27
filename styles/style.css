@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+.header-section {
+  max-width: 1300px;
+  background-color: #9376e0;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-section a {
+  color: #ffff;
+  font-size: 20px;
+}
+.main-header {
+  background-color: #9376e0;
+  margin-bottom: 20px;
+}
+.nav-container {
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+.nav-container img {
+  width: 90px;
+}
+.nav-container p {
+  font-size: 25px;
+  font-weight: 800;
+}
+.nav-container p > span {
+  color: #e893cf;
+}
+.items-container {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.items-container .login-button {
+  background-color: #e893cf;
+  padding: 10px 20px;
+  font-weight: 600;
+  border-radius: 5px;
+  color: black;
+}
+
+/*=====banner section styles=====*/
+.banner-section {
+  max-width: 1300px;
+  min-height: 400px;
+  margin: 0 auto;
+  background-color: #e6e9eb;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  padding: 20px;
+}
+.banner-text-container {
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.banner-text-container h1,
+p {
+  font-size: 45px;
+}
+.banner-text-container span {
+  font-size: 45px;
+}
+.banner-text-container h1 {
+  background: linear-gradient(45deg, #e893cf, #9376e0);
+  background-clip: text;
+  color: transparent;
+}
+.banner-text-container p {
+  font-family: "Dancing Script", cursive;
+  font-size: 50px;
+  margin-top: 10px;
+}
+.banner-image-container {
+  width: 48%;
+  position: relative;
+}
+.banner-image-container img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.icons {
+  display: flex;
+  gap: 14px;
+  margin-top: 10px;
+}
+.fa-facebook {
+  color: blue;
+}
+.fa-twitter {
+  color: skyblue;
+}
+.fa-youtube {
+  color: red;
+}
+.fa-instagram {
+  color: violet;
+}
+.common-button {
+  padding: 10px 20px;
+  border: 2px solid violet;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.discount {
+  width: 90px;
+  height: 90px;
+  background-color: rgb(128, 128, 16);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  border: 2px solid black;
+  color: #ffff;
+  font-weight: 700;
+  position: absolute;
+  left: 65%;
+  bottom: 65%;
+}
